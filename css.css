@@ -1,0 +1,16 @@
+body{
+    background-color: #e0f2f1;
+}
+
+#calcularBtn:hover {
+    background-color: #009bff;
+}
+
+#resultado{
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+#resultado.mostrar{
+    opacity: 1;
+}
